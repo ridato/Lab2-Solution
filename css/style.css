@@ -1,0 +1,34 @@
+body {
+  margin: 13px;
+}
+
+.row div {
+  border: 1px solid transparent;
+  padding: 6px;
+}
+
+body.debug .row div {
+  border: 1px solid cyan;
+}
+
+#image {
+  float: right;
+  border-radius : 95px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Times New Roman", sans-serif, Serif;
+}
+
+body {
+    margin: 0px;
+    padding: 6px;
+}
+
+#msgtext {
+    text-align: right;
+}
